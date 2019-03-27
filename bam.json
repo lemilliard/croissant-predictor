@@ -1,0 +1,3572 @@
+{
+  "beginDate": 1551394800000,
+  "endDate": 1559253600000,
+  "nbDays": 92,
+  "months": [
+    {
+      "name": "Mars",
+      "nb": 31
+    },
+    {
+      "name": "Avril",
+      "nb": 30
+    },
+    {
+      "name": "Mai",
+      "nb": 31
+    }
+  ],
+  "users": [
+    {
+      "_id": "5c73607ad5de9fb38da25c2e",
+      "first_name": "Cyril",
+      "last_name": "AVINENS",
+      "user_site": "53b57b54e4b0fe4ba04dc4e0",
+      "user_type": "collaborateur",
+      "wtrDeversement": "NON",
+      "order_names": "false",
+      "on_call": "NON",
+      "shadow_admin": "NON",
+      "presence": "NON",
+      "production_access": "NON",
+      "start_date": "2019-01-01",
+      "end_date": "9999-99-99",
+      "perimeters": [],
+      "days": [
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 1,
+          "date": "2019-03-01",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 2,
+          "date": "2019-03-02",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 3,
+          "date": "2019-03-03",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 4,
+          "date": "2019-03-04",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 5,
+          "date": "2019-03-05",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 6,
+          "date": "2019-03-06",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 7,
+          "date": "2019-03-07",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 8,
+          "date": "2019-03-08",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 9,
+          "date": "2019-03-09",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 10,
+          "date": "2019-03-10",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 11,
+          "date": "2019-03-11",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 12,
+          "date": "2019-03-12",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 13,
+          "date": "2019-03-13",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 14,
+          "date": "2019-03-14",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 15,
+          "date": "2019-03-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 16,
+          "date": "2019-03-16",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 17,
+          "date": "2019-03-17",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 18,
+          "date": "2019-03-18",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 19,
+          "date": "2019-03-19",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 20,
+          "date": "2019-03-20",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 21,
+          "date": "2019-03-21",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 22,
+          "date": "2019-03-22",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 23,
+          "date": "2019-03-23",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 24,
+          "date": "2019-03-24",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 25,
+          "date": "2019-03-25",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 26,
+          "date": "2019-03-26",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 27,
+          "date": "2019-03-27",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 28,
+          "date": "2019-03-28",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 29,
+          "date": "2019-03-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 30,
+          "date": "2019-03-30",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 31,
+          "date": "2019-03-31",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 1,
+          "date": "2019-04-01",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 2,
+          "date": "2019-04-02",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 3,
+          "date": "2019-04-03",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 4,
+          "date": "2019-04-04",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 5,
+          "date": "2019-04-05",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 6,
+          "date": "2019-04-06",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 7,
+          "date": "2019-04-07",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 8,
+          "date": "2019-04-08",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 9,
+          "date": "2019-04-09",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 10,
+          "date": "2019-04-10",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 11,
+          "date": "2019-04-11",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 12,
+          "date": "2019-04-12",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 13,
+          "date": "2019-04-13",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 14,
+          "date": "2019-04-14",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 15,
+          "date": "2019-04-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 16,
+          "date": "2019-04-16",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 17,
+          "date": "2019-04-17",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 18,
+          "date": "2019-04-18",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 19,
+          "date": "2019-04-19",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 20,
+          "date": "2019-04-20",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 21,
+          "date": "2019-04-21",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 22,
+          "date": "2019-04-22",
+          "type": "day_off",
+          "bank_holiday": "Lundi de Paques"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 23,
+          "date": "2019-04-23",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 24,
+          "date": "2019-04-24",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 25,
+          "date": "2019-04-25",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 26,
+          "date": "2019-04-26",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 27,
+          "date": "2019-04-27",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 28,
+          "date": "2019-04-28",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 29,
+          "date": "2019-04-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 30,
+          "date": "2019-04-30",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 1,
+          "date": "2019-05-01",
+          "type": "day_off",
+          "bank_holiday": "Fête du travail"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 2,
+          "date": "2019-05-02",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 3,
+          "date": "2019-05-03",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 4,
+          "date": "2019-05-04",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 5,
+          "date": "2019-05-05",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 6,
+          "date": "2019-05-06",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 7,
+          "date": "2019-05-07",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 8,
+          "date": "2019-05-08",
+          "type": "day_off",
+          "bank_holiday": "Victoire 1945"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 9,
+          "date": "2019-05-09",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 10,
+          "date": "2019-05-10",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 11,
+          "date": "2019-05-11",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 12,
+          "date": "2019-05-12",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 13,
+          "date": "2019-05-13",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 14,
+          "date": "2019-05-14",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 15,
+          "date": "2019-05-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 16,
+          "date": "2019-05-16",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 17,
+          "date": "2019-05-17",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 18,
+          "date": "2019-05-18",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 19,
+          "date": "2019-05-19",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 20,
+          "date": "2019-05-20",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 21,
+          "date": "2019-05-21",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 22,
+          "date": "2019-05-22",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 23,
+          "date": "2019-05-23",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 24,
+          "date": "2019-05-24",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 25,
+          "date": "2019-05-25",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 26,
+          "date": "2019-05-26",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 27,
+          "date": "2019-05-27",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 28,
+          "date": "2019-05-28",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 29,
+          "date": "2019-05-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 30,
+          "date": "2019-05-30",
+          "type": "day_off",
+          "bank_holiday": "Jeudi de l'Ascension "
+        },
+        {
+          "user_id": "5c73607ad5de9fb38da25c2e",
+          "start_date": 31,
+          "date": "2019-05-31",
+          "type": "RAS"
+        }
+      ]
+    },
+    {
+      "_id": "5c735faed5de9fb38da25c20",
+      "first_name": "Arnaud",
+      "last_name": "CABALLE",
+      "user_site": "53b57b54e4b0fe4ba04dc4e0",
+      "user_type": "admin",
+      "wtrDeversement": "NON",
+      "order_names": "false",
+      "on_call": "NON",
+      "shadow_admin": "NON",
+      "presence": "NON",
+      "production_access": "NON",
+      "start_date": "2019-01-01",
+      "end_date": "9999-99-99",
+      "perimeters": [],
+      "days": [
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 1,
+          "date": "2019-03-01",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 2,
+          "date": "2019-03-02",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 3,
+          "date": "2019-03-03",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 4,
+          "date": "2019-03-04",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 5,
+          "date": "2019-03-05",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 6,
+          "date": "2019-03-06",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 7,
+          "date": "2019-03-07",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 8,
+          "date": "2019-03-08",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 9,
+          "date": "2019-03-09",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 10,
+          "date": "2019-03-10",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 11,
+          "date": "2019-03-11",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 12,
+          "date": "2019-03-12",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 13,
+          "date": "2019-03-13",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 14,
+          "date": "2019-03-14",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 15,
+          "date": "2019-03-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 16,
+          "date": "2019-03-16",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 17,
+          "date": "2019-03-17",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 18,
+          "date": "2019-03-18",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 19,
+          "date": "2019-03-19",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 20,
+          "date": "2019-03-20",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 21,
+          "date": "2019-03-21",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 22,
+          "date": "2019-03-22",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 23,
+          "date": "2019-03-23",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 24,
+          "date": "2019-03-24",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 25,
+          "date": "2019-03-25",
+          "type": "trip",
+          "length_day_off": "1",
+          "id": "5c988807d5dee83e8929c40d",
+          "comment": "chez Bpifrance",
+          "validator": null
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 26,
+          "date": "2019-03-26",
+          "type": "trip",
+          "length_day_off": "1",
+          "id": "5c988807d5dee83e8929c40e",
+          "comment": "chez Bpifrance",
+          "validator": null
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 27,
+          "date": "2019-03-27",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 28,
+          "date": "2019-03-28",
+          "type": "trip",
+          "length_day_off": "1",
+          "id": "5c98881cd5dee83e8929c40f",
+          "comment": "chez Allianz",
+          "validator": null
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 29,
+          "date": "2019-03-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 30,
+          "date": "2019-03-30",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 31,
+          "date": "2019-03-31",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 1,
+          "date": "2019-04-01",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 2,
+          "date": "2019-04-02",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 3,
+          "date": "2019-04-03",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 4,
+          "date": "2019-04-04",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 5,
+          "date": "2019-04-05",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 6,
+          "date": "2019-04-06",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 7,
+          "date": "2019-04-07",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 8,
+          "date": "2019-04-08",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 9,
+          "date": "2019-04-09",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 10,
+          "date": "2019-04-10",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 11,
+          "date": "2019-04-11",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 12,
+          "date": "2019-04-12",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 13,
+          "date": "2019-04-13",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 14,
+          "date": "2019-04-14",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 15,
+          "date": "2019-04-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 16,
+          "date": "2019-04-16",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 17,
+          "date": "2019-04-17",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 18,
+          "date": "2019-04-18",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 19,
+          "date": "2019-04-19",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 20,
+          "date": "2019-04-20",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 21,
+          "date": "2019-04-21",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 22,
+          "date": "2019-04-22",
+          "type": "day_off",
+          "bank_holiday": "Lundi de Paques"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 23,
+          "date": "2019-04-23",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c87c6bcd5de43be3e8c0e63",
+          "validator": null
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 24,
+          "date": "2019-04-24",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c87c6bcd5de43be3e8c0e64",
+          "validator": null
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 25,
+          "date": "2019-04-25",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c87c6bcd5de43be3e8c0e65",
+          "validator": null
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 26,
+          "date": "2019-04-26",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c87c6bcd5de43be3e8c0e66",
+          "validator": null
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 27,
+          "date": "2019-04-27",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 28,
+          "date": "2019-04-28",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 29,
+          "date": "2019-04-29",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c87c6bcd5de43be3e8c0e67",
+          "validator": null
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 30,
+          "date": "2019-04-30",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c87c6bcd5de43be3e8c0e68",
+          "validator": null
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 1,
+          "date": "2019-05-01",
+          "type": "day_off",
+          "bank_holiday": "Fête du travail"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 2,
+          "date": "2019-05-02",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c87c6bcd5de43be3e8c0e69",
+          "validator": null
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 3,
+          "date": "2019-05-03",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c87c6bcd5de43be3e8c0e6a",
+          "validator": null
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 4,
+          "date": "2019-05-04",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 5,
+          "date": "2019-05-05",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 6,
+          "date": "2019-05-06",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 7,
+          "date": "2019-05-07",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 8,
+          "date": "2019-05-08",
+          "type": "day_off",
+          "bank_holiday": "Victoire 1945"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 9,
+          "date": "2019-05-09",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 10,
+          "date": "2019-05-10",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 11,
+          "date": "2019-05-11",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 12,
+          "date": "2019-05-12",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 13,
+          "date": "2019-05-13",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 14,
+          "date": "2019-05-14",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 15,
+          "date": "2019-05-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 16,
+          "date": "2019-05-16",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 17,
+          "date": "2019-05-17",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 18,
+          "date": "2019-05-18",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 19,
+          "date": "2019-05-19",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 20,
+          "date": "2019-05-20",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 21,
+          "date": "2019-05-21",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 22,
+          "date": "2019-05-22",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 23,
+          "date": "2019-05-23",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 24,
+          "date": "2019-05-24",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 25,
+          "date": "2019-05-25",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 26,
+          "date": "2019-05-26",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 27,
+          "date": "2019-05-27",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 28,
+          "date": "2019-05-28",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 29,
+          "date": "2019-05-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 30,
+          "date": "2019-05-30",
+          "type": "day_off",
+          "bank_holiday": "Jeudi de l'Ascension "
+        },
+        {
+          "user_id": "5c735faed5de9fb38da25c20",
+          "start_date": 31,
+          "date": "2019-05-31",
+          "type": "RAS"
+        }
+      ]
+    },
+    {
+      "_id": "5c735fe7d5de9fb38da25c25",
+      "first_name": "Julien",
+      "last_name": "CEARD",
+      "user_site": "53b57b54e4b0fe4ba04dc4e0",
+      "user_type": "admin",
+      "wtrDeversement": "NON",
+      "order_names": "false",
+      "on_call": "NON",
+      "shadow_admin": "NON",
+      "presence": "NON",
+      "production_access": "NON",
+      "start_date": "2019-01-01",
+      "end_date": "9999-99-99",
+      "perimeters": [],
+      "days": [
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 1,
+          "date": "2019-03-01",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 2,
+          "date": "2019-03-02",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 3,
+          "date": "2019-03-03",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 4,
+          "date": "2019-03-04",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 5,
+          "date": "2019-03-05",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 6,
+          "date": "2019-03-06",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 7,
+          "date": "2019-03-07",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 8,
+          "date": "2019-03-08",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 9,
+          "date": "2019-03-09",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 10,
+          "date": "2019-03-10",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 11,
+          "date": "2019-03-11",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 12,
+          "date": "2019-03-12",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 13,
+          "date": "2019-03-13",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 14,
+          "date": "2019-03-14",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 15,
+          "date": "2019-03-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 16,
+          "date": "2019-03-16",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 17,
+          "date": "2019-03-17",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 18,
+          "date": "2019-03-18",
+          "type": "trip",
+          "length_day_off": "1",
+          "id": "5c8686b8d5de43be3e8c0db0",
+          "comment": "BootCamp Inde",
+          "validator": null
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 19,
+          "date": "2019-03-19",
+          "type": "trip",
+          "length_day_off": "1",
+          "id": "5c8686b8d5de43be3e8c0db1",
+          "comment": "BootCamp Inde",
+          "validator": null
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 20,
+          "date": "2019-03-20",
+          "type": "trip",
+          "length_day_off": "1",
+          "id": "5c8686b8d5de43be3e8c0db2",
+          "comment": "BootCamp Inde",
+          "validator": null
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 21,
+          "date": "2019-03-21",
+          "type": "trip",
+          "length_day_off": "1",
+          "id": "5c8686b8d5de43be3e8c0db3",
+          "comment": "BootCamp Inde",
+          "validator": null
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 22,
+          "date": "2019-03-22",
+          "type": "trip",
+          "length_day_off": "1",
+          "id": "5c8686b8d5de43be3e8c0db4",
+          "comment": "BootCamp Inde",
+          "validator": null
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 23,
+          "date": "2019-03-23",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 24,
+          "date": "2019-03-24",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 25,
+          "date": "2019-03-25",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c86868ad5de43be3e8c0dab",
+          "validator": null
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 26,
+          "date": "2019-03-26",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 27,
+          "date": "2019-03-27",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 28,
+          "date": "2019-03-28",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 29,
+          "date": "2019-03-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 30,
+          "date": "2019-03-30",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 31,
+          "date": "2019-03-31",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 1,
+          "date": "2019-04-01",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 2,
+          "date": "2019-04-02",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 3,
+          "date": "2019-04-03",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 4,
+          "date": "2019-04-04",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 5,
+          "date": "2019-04-05",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 6,
+          "date": "2019-04-06",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 7,
+          "date": "2019-04-07",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 8,
+          "date": "2019-04-08",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 9,
+          "date": "2019-04-09",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 10,
+          "date": "2019-04-10",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 11,
+          "date": "2019-04-11",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 12,
+          "date": "2019-04-12",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 13,
+          "date": "2019-04-13",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 14,
+          "date": "2019-04-14",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 15,
+          "date": "2019-04-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 16,
+          "date": "2019-04-16",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 17,
+          "date": "2019-04-17",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 18,
+          "date": "2019-04-18",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 19,
+          "date": "2019-04-19",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 20,
+          "date": "2019-04-20",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 21,
+          "date": "2019-04-21",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 22,
+          "date": "2019-04-22",
+          "type": "day_off",
+          "bank_holiday": "Lundi de Paques"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 23,
+          "date": "2019-04-23",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 24,
+          "date": "2019-04-24",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 25,
+          "date": "2019-04-25",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 26,
+          "date": "2019-04-26",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 27,
+          "date": "2019-04-27",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 28,
+          "date": "2019-04-28",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 29,
+          "date": "2019-04-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 30,
+          "date": "2019-04-30",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 1,
+          "date": "2019-05-01",
+          "type": "day_off",
+          "bank_holiday": "Fête du travail"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 2,
+          "date": "2019-05-02",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c88cebfd5de39650261eff6",
+          "validator": null
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 3,
+          "date": "2019-05-03",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c88cebfd5de39650261eff7",
+          "validator": null
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 4,
+          "date": "2019-05-04",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 5,
+          "date": "2019-05-05",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 6,
+          "date": "2019-05-06",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c88cebfd5de39650261eff8",
+          "validator": null
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 7,
+          "date": "2019-05-07",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c88cebfd5de39650261eff9",
+          "validator": null
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 8,
+          "date": "2019-05-08",
+          "type": "day_off",
+          "bank_holiday": "Victoire 1945"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 9,
+          "date": "2019-05-09",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c88cebfd5de39650261effa",
+          "validator": null
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 10,
+          "date": "2019-05-10",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c88cebfd5de39650261effb",
+          "validator": null
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 11,
+          "date": "2019-05-11",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 12,
+          "date": "2019-05-12",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 13,
+          "date": "2019-05-13",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 14,
+          "date": "2019-05-14",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 15,
+          "date": "2019-05-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 16,
+          "date": "2019-05-16",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 17,
+          "date": "2019-05-17",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 18,
+          "date": "2019-05-18",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 19,
+          "date": "2019-05-19",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 20,
+          "date": "2019-05-20",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 21,
+          "date": "2019-05-21",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 22,
+          "date": "2019-05-22",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 23,
+          "date": "2019-05-23",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 24,
+          "date": "2019-05-24",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 25,
+          "date": "2019-05-25",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 26,
+          "date": "2019-05-26",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 27,
+          "date": "2019-05-27",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 28,
+          "date": "2019-05-28",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 29,
+          "date": "2019-05-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 30,
+          "date": "2019-05-30",
+          "type": "day_off",
+          "bank_holiday": "Jeudi de l'Ascension "
+        },
+        {
+          "user_id": "5c735fe7d5de9fb38da25c25",
+          "start_date": 31,
+          "date": "2019-05-31",
+          "type": "RAS"
+        }
+      ]
+    },
+    {
+      "_id": "5c736096d5de9fb38da25c31",
+      "first_name": "THOMAS",
+      "last_name": "KINT",
+      "user_site": "53b57b54e4b0fe4ba04dc4e0",
+      "user_type": "collaborateur",
+      "wtrDeversement": "NON",
+      "order_names": "false",
+      "on_call": "NON",
+      "shadow_admin": "NON",
+      "presence": "NON",
+      "production_access": "NON",
+      "start_date": "2019-01-01",
+      "end_date": "9999-99-99",
+      "perimeters": [],
+      "days": [
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 1,
+          "date": "2019-03-01",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 2,
+          "date": "2019-03-02",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 3,
+          "date": "2019-03-03",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 4,
+          "date": "2019-03-04",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 5,
+          "date": "2019-03-05",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 6,
+          "date": "2019-03-06",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 7,
+          "date": "2019-03-07",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 8,
+          "date": "2019-03-08",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 9,
+          "date": "2019-03-09",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 10,
+          "date": "2019-03-10",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 11,
+          "date": "2019-03-11",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 12,
+          "date": "2019-03-12",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 13,
+          "date": "2019-03-13",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 14,
+          "date": "2019-03-14",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 15,
+          "date": "2019-03-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 16,
+          "date": "2019-03-16",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 17,
+          "date": "2019-03-17",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 18,
+          "date": "2019-03-18",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 19,
+          "date": "2019-03-19",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 20,
+          "date": "2019-03-20",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 21,
+          "date": "2019-03-21",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 22,
+          "date": "2019-03-22",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 23,
+          "date": "2019-03-23",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 24,
+          "date": "2019-03-24",
+          "type": "day_off"
+        },
+        [
+          {
+            "user_id": "5c736096d5de9fb38da25c31",
+            "start_date": 25,
+            "date": "2019-03-25",
+            "type": "rtt-asked",
+            "length_day_off": "0.5",
+            "id": "5c94c91dd5dee83e8929c379",
+            "length_day_off_period": "afternoon",
+            "validator": null
+          }
+        ],
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 26,
+          "date": "2019-03-26",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 27,
+          "date": "2019-03-27",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 28,
+          "date": "2019-03-28",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 29,
+          "date": "2019-03-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 30,
+          "date": "2019-03-30",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 31,
+          "date": "2019-03-31",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 1,
+          "date": "2019-04-01",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 2,
+          "date": "2019-04-02",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 3,
+          "date": "2019-04-03",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 4,
+          "date": "2019-04-04",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 5,
+          "date": "2019-04-05",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 6,
+          "date": "2019-04-06",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 7,
+          "date": "2019-04-07",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 8,
+          "date": "2019-04-08",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 9,
+          "date": "2019-04-09",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 10,
+          "date": "2019-04-10",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 11,
+          "date": "2019-04-11",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 12,
+          "date": "2019-04-12",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 13,
+          "date": "2019-04-13",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 14,
+          "date": "2019-04-14",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 15,
+          "date": "2019-04-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 16,
+          "date": "2019-04-16",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 17,
+          "date": "2019-04-17",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 18,
+          "date": "2019-04-18",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 19,
+          "date": "2019-04-19",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 20,
+          "date": "2019-04-20",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 21,
+          "date": "2019-04-21",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 22,
+          "date": "2019-04-22",
+          "type": "day_off",
+          "bank_holiday": "Lundi de Paques"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 23,
+          "date": "2019-04-23",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 24,
+          "date": "2019-04-24",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 25,
+          "date": "2019-04-25",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 26,
+          "date": "2019-04-26",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 27,
+          "date": "2019-04-27",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 28,
+          "date": "2019-04-28",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 29,
+          "date": "2019-04-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 30,
+          "date": "2019-04-30",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 1,
+          "date": "2019-05-01",
+          "type": "day_off",
+          "bank_holiday": "Fête du travail"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 2,
+          "date": "2019-05-02",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 3,
+          "date": "2019-05-03",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 4,
+          "date": "2019-05-04",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 5,
+          "date": "2019-05-05",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 6,
+          "date": "2019-05-06",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 7,
+          "date": "2019-05-07",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 8,
+          "date": "2019-05-08",
+          "type": "day_off",
+          "bank_holiday": "Victoire 1945"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 9,
+          "date": "2019-05-09",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 10,
+          "date": "2019-05-10",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 11,
+          "date": "2019-05-11",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 12,
+          "date": "2019-05-12",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 13,
+          "date": "2019-05-13",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 14,
+          "date": "2019-05-14",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 15,
+          "date": "2019-05-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 16,
+          "date": "2019-05-16",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 17,
+          "date": "2019-05-17",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 18,
+          "date": "2019-05-18",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 19,
+          "date": "2019-05-19",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 20,
+          "date": "2019-05-20",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 21,
+          "date": "2019-05-21",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 22,
+          "date": "2019-05-22",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 23,
+          "date": "2019-05-23",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 24,
+          "date": "2019-05-24",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 25,
+          "date": "2019-05-25",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 26,
+          "date": "2019-05-26",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 27,
+          "date": "2019-05-27",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 28,
+          "date": "2019-05-28",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 29,
+          "date": "2019-05-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 30,
+          "date": "2019-05-30",
+          "type": "day_off",
+          "bank_holiday": "Jeudi de l'Ascension "
+        },
+        {
+          "user_id": "5c736096d5de9fb38da25c31",
+          "start_date": 31,
+          "date": "2019-05-31",
+          "type": "RAS"
+        }
+      ]
+    },
+    {
+      "_id": "5c6bdf21d5de9fb38da258e0",
+      "first_name": "Valerie",
+      "last_name": "PERNEZ",
+      "user_site": "53b57b54e4b0fe4ba04dc4e0",
+      "user_type": "admin",
+      "wtrDeversement": "NON",
+      "order_names": "false",
+      "on_call": "NON",
+      "shadow_admin": "NON",
+      "presence": "NON",
+      "production_access": "NON",
+      "start_date": "2019-01-01",
+      "end_date": "9999-99-99",
+      "perimeters": [],
+      "days": [
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 1,
+          "date": "2019-03-01",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 2,
+          "date": "2019-03-02",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 3,
+          "date": "2019-03-03",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 4,
+          "date": "2019-03-04",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 5,
+          "date": "2019-03-05",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c7d5562d5de43be3e8c04db",
+          "validator": null
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 6,
+          "date": "2019-03-06",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c7d562ed5de43be3e8c04e0",
+          "validator": null
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 7,
+          "date": "2019-03-07",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c7d562ed5de43be3e8c04e1",
+          "validator": null
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 8,
+          "date": "2019-03-08",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c7d562ed5de43be3e8c04e2",
+          "validator": null
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 9,
+          "date": "2019-03-09",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 10,
+          "date": "2019-03-10",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 11,
+          "date": "2019-03-11",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 12,
+          "date": "2019-03-12",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 13,
+          "date": "2019-03-13",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 14,
+          "date": "2019-03-14",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 15,
+          "date": "2019-03-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 16,
+          "date": "2019-03-16",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 17,
+          "date": "2019-03-17",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 18,
+          "date": "2019-03-18",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c7d56e6d5de43be3e8c04e3",
+          "validator": null
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 19,
+          "date": "2019-03-19",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c7d56e6d5de43be3e8c04e4",
+          "validator": null
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 20,
+          "date": "2019-03-20",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c7d56e6d5de43be3e8c04e5",
+          "validator": null
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 21,
+          "date": "2019-03-21",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c7d56e6d5de43be3e8c04e6",
+          "validator": null
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 22,
+          "date": "2019-03-22",
+          "type": "rtt-asked",
+          "length_day_off": "1",
+          "id": "5c7d56e6d5de43be3e8c04e7",
+          "validator": null
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 23,
+          "date": "2019-03-23",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 24,
+          "date": "2019-03-24",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 25,
+          "date": "2019-03-25",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 26,
+          "date": "2019-03-26",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 27,
+          "date": "2019-03-27",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 28,
+          "date": "2019-03-28",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 29,
+          "date": "2019-03-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 30,
+          "date": "2019-03-30",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 31,
+          "date": "2019-03-31",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 1,
+          "date": "2019-04-01",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 2,
+          "date": "2019-04-02",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 3,
+          "date": "2019-04-03",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 4,
+          "date": "2019-04-04",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 5,
+          "date": "2019-04-05",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 6,
+          "date": "2019-04-06",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 7,
+          "date": "2019-04-07",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 8,
+          "date": "2019-04-08",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 9,
+          "date": "2019-04-09",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 10,
+          "date": "2019-04-10",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 11,
+          "date": "2019-04-11",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 12,
+          "date": "2019-04-12",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 13,
+          "date": "2019-04-13",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 14,
+          "date": "2019-04-14",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 15,
+          "date": "2019-04-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 16,
+          "date": "2019-04-16",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 17,
+          "date": "2019-04-17",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 18,
+          "date": "2019-04-18",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 19,
+          "date": "2019-04-19",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 20,
+          "date": "2019-04-20",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 21,
+          "date": "2019-04-21",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 22,
+          "date": "2019-04-22",
+          "type": "day_off",
+          "bank_holiday": "Lundi de Paques"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 23,
+          "date": "2019-04-23",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 24,
+          "date": "2019-04-24",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 25,
+          "date": "2019-04-25",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 26,
+          "date": "2019-04-26",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 27,
+          "date": "2019-04-27",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 28,
+          "date": "2019-04-28",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 29,
+          "date": "2019-04-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 30,
+          "date": "2019-04-30",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 1,
+          "date": "2019-05-01",
+          "type": "day_off",
+          "bank_holiday": "Fête du travail"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 2,
+          "date": "2019-05-02",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 3,
+          "date": "2019-05-03",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 4,
+          "date": "2019-05-04",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 5,
+          "date": "2019-05-05",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 6,
+          "date": "2019-05-06",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 7,
+          "date": "2019-05-07",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 8,
+          "date": "2019-05-08",
+          "type": "day_off",
+          "bank_holiday": "Victoire 1945"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 9,
+          "date": "2019-05-09",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 10,
+          "date": "2019-05-10",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 11,
+          "date": "2019-05-11",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 12,
+          "date": "2019-05-12",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 13,
+          "date": "2019-05-13",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 14,
+          "date": "2019-05-14",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 15,
+          "date": "2019-05-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 16,
+          "date": "2019-05-16",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 17,
+          "date": "2019-05-17",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 18,
+          "date": "2019-05-18",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 19,
+          "date": "2019-05-19",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 20,
+          "date": "2019-05-20",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 21,
+          "date": "2019-05-21",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 22,
+          "date": "2019-05-22",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 23,
+          "date": "2019-05-23",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 24,
+          "date": "2019-05-24",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 25,
+          "date": "2019-05-25",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 26,
+          "date": "2019-05-26",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 27,
+          "date": "2019-05-27",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 28,
+          "date": "2019-05-28",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 29,
+          "date": "2019-05-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 30,
+          "date": "2019-05-30",
+          "type": "day_off",
+          "bank_holiday": "Jeudi de l'Ascension "
+        },
+        {
+          "user_id": "5c6bdf21d5de9fb38da258e0",
+          "start_date": 31,
+          "date": "2019-05-31",
+          "type": "RAS"
+        }
+      ]
+    },
+    {
+      "_id": "5c85cf6cd5de43be3e8c0ae8",
+      "first_name": "SAMIR",
+      "last_name": "ZAIDI",
+      "user_site": "53b57b54e4b0fe4ba04dc4e0",
+      "user_type": "collaborateur",
+      "wtrDeversement": "NON",
+      "order_names": "false",
+      "on_call": "NON",
+      "shadow_admin": "NON",
+      "presence": "NON",
+      "production_access": "NON",
+      "start_date": "2019-03-13",
+      "end_date": "2019-04-01",
+      "perimeters": [],
+      "days": [
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 1,
+          "date": "2019-03-01",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 2,
+          "date": "2019-03-02",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 3,
+          "date": "2019-03-03",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 4,
+          "date": "2019-03-04",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 5,
+          "date": "2019-03-05",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 6,
+          "date": "2019-03-06",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 7,
+          "date": "2019-03-07",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 8,
+          "date": "2019-03-08",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 9,
+          "date": "2019-03-09",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 10,
+          "date": "2019-03-10",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 11,
+          "date": "2019-03-11",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 12,
+          "date": "2019-03-12",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 13,
+          "date": "2019-03-13",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 14,
+          "date": "2019-03-14",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 15,
+          "date": "2019-03-15",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 16,
+          "date": "2019-03-16",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 17,
+          "date": "2019-03-17",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 18,
+          "date": "2019-03-18",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 19,
+          "date": "2019-03-19",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 20,
+          "date": "2019-03-20",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 21,
+          "date": "2019-03-21",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 22,
+          "date": "2019-03-22",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 23,
+          "date": "2019-03-23",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 24,
+          "date": "2019-03-24",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 25,
+          "date": "2019-03-25",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 26,
+          "date": "2019-03-26",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 27,
+          "date": "2019-03-27",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 28,
+          "date": "2019-03-28",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 29,
+          "date": "2019-03-29",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 30,
+          "date": "2019-03-30",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 31,
+          "date": "2019-03-31",
+          "type": "day_off"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 1,
+          "date": "2019-04-01",
+          "type": "RAS"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 2,
+          "date": "2019-04-02",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 3,
+          "date": "2019-04-03",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 4,
+          "date": "2019-04-04",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 5,
+          "date": "2019-04-05",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 6,
+          "date": "2019-04-06",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 7,
+          "date": "2019-04-07",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 8,
+          "date": "2019-04-08",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 9,
+          "date": "2019-04-09",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 10,
+          "date": "2019-04-10",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 11,
+          "date": "2019-04-11",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 12,
+          "date": "2019-04-12",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 13,
+          "date": "2019-04-13",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 14,
+          "date": "2019-04-14",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 15,
+          "date": "2019-04-15",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 16,
+          "date": "2019-04-16",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 17,
+          "date": "2019-04-17",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 18,
+          "date": "2019-04-18",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 19,
+          "date": "2019-04-19",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 20,
+          "date": "2019-04-20",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 21,
+          "date": "2019-04-21",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 22,
+          "date": "2019-04-22",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 23,
+          "date": "2019-04-23",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 24,
+          "date": "2019-04-24",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 25,
+          "date": "2019-04-25",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 26,
+          "date": "2019-04-26",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 27,
+          "date": "2019-04-27",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 28,
+          "date": "2019-04-28",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 29,
+          "date": "2019-04-29",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 30,
+          "date": "2019-04-30",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 1,
+          "date": "2019-05-01",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 2,
+          "date": "2019-05-02",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 3,
+          "date": "2019-05-03",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 4,
+          "date": "2019-05-04",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 5,
+          "date": "2019-05-05",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 6,
+          "date": "2019-05-06",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 7,
+          "date": "2019-05-07",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 8,
+          "date": "2019-05-08",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 9,
+          "date": "2019-05-09",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 10,
+          "date": "2019-05-10",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 11,
+          "date": "2019-05-11",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 12,
+          "date": "2019-05-12",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 13,
+          "date": "2019-05-13",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 14,
+          "date": "2019-05-14",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 15,
+          "date": "2019-05-15",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 16,
+          "date": "2019-05-16",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 17,
+          "date": "2019-05-17",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 18,
+          "date": "2019-05-18",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 19,
+          "date": "2019-05-19",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 20,
+          "date": "2019-05-20",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 21,
+          "date": "2019-05-21",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 22,
+          "date": "2019-05-22",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 23,
+          "date": "2019-05-23",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 24,
+          "date": "2019-05-24",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 25,
+          "date": "2019-05-25",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 26,
+          "date": "2019-05-26",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 27,
+          "date": "2019-05-27",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 28,
+          "date": "2019-05-28",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 29,
+          "date": "2019-05-29",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 30,
+          "date": "2019-05-30",
+          "type": "not_affected"
+        },
+        {
+          "user_id": "5c85cf6cd5de43be3e8c0ae8",
+          "start_date": 31,
+          "date": "2019-05-31",
+          "type": "not_affected"
+        }
+      ]
+    }
+  ],
+  "time": 28.378406
+}
