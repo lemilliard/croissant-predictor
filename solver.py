@@ -10,8 +10,12 @@ class Solver:
         self.fetcher = Fetcher()
 
     @staticmethod
-    def get_persons(calendar):
-        return [Person(person) for person in calendar["users"]]
+    def update_persons(calendar, potential):
+        persons = [Person(person) for person in calendar["users"]]
+        if potential is not None and potential["potential"] is not None:
+            for person in persons:
+                person.potential = potential["potential"][person.name]
+        return persons
 
     @staticmethod
     def calculate_potentials(persons, friday):
@@ -27,6 +31,39 @@ class Solver:
                 person.potential += 1
             else:
                 person.potential = 0
+        Solver.save_calculate_potential(persons, friday)
+
+    @staticmethod
+    def save_calculate_potential(persons, friday):
+        potential = {
+            "date": friday.strftime("%Y-%m-%d"),
+            "potential": dict([(p.name, p.potential) for p in persons])
+        }
+        with open('calculate_potential.json', 'w') as f:
+            json.dump(potential, f)
+
+    @staticmethod
+    def load_potential():
+        try:
+            with open('calculate_potential.json', 'r') as calc_f:
+                calculate_potential = json.load(calc_f)
+            try:
+                with open('potential.json', 'r') as f:
+                    potential = json.load(f)
+            except:
+                with open('potential.json', 'w') as f:
+                    potential = {
+                        "date": Solver.get_next_friday().strftime("%Y-%m-%d"),
+                        "potential": None
+                    }
+                    json.dump(potential, f)
+            d = datetime.datetime.strptime(potential["date"], "%Y-%m-%d").date()
+            if d < datetime.date.today():
+                json.dump(calculate_potential, f)
+                return calculate_potential
+            return potential
+        except:
+            return None
 
     @staticmethod
     def get_most_potential_person(persons):
@@ -50,8 +87,11 @@ class Solver:
         return d
 
     def define_croissanists(self, project_id, months):
+        potential = self.load_potential()
+
         calendar = self.fetcher.load_calendar(project_id, self.get_first_day_of_current_month(), months)
-        persons = self.get_persons(calendar)
+
+        persons = self.update_persons(calendar, potential)
 
         friday = self.get_next_friday()
 

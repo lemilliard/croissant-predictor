@@ -11,7 +11,7 @@ class Person:
         self.potential = 0
 
         days = person["days"]
-        for j in range(31):
+        for j in range(len(days)):
             day = None
             try:
                 if "type" in days[j].keys():
