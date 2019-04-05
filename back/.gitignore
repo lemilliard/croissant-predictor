@@ -5,7 +5,5 @@ __pycache__/
 build/
 dist/
 
-config.json
-
 calculate_potential.json
 potential.json
