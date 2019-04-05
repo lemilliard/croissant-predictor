@@ -12,6 +12,11 @@ solver = Solver()
 @app.route("/projects")
 def get_projects():
     return jsonify(solver.fetcher.projects)
+    
+    
+@app.route("/persons/<project_id>/<months>")
+def projects(project_id, months):
+    return jsonify(solver.get_persons(project_id, int(months)))
 
 
 @app.route("/projects/load")
@@ -20,9 +25,9 @@ def load_projects():
     return jsonify(solver.fetcher.projects)
 
 
-@app.route("/define_croissanists/<project_id>/<months>")
-def define_croissanists(project_id, months):
-    croissanists = solver.define_croissanists(project_id, int(months))
+@app.route("/define_croissanists/<project_id>/<months>/<nb_croissanist>")
+def define_croissanists(project_id, months, nb_croissanist):
+    croissanists = solver.define_croissanists(project_id, int(months), int(nb_croissanist))
     return jsonify(croissanists)
 
 

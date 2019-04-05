@@ -66,14 +66,19 @@ class Solver:
             return None
 
     @staticmethod
-    def get_most_potential_person(persons):
+    def get_most_potential_persons(persons, n):
         max_potential = 0
         most_potential_person = None
-        for person in persons:
-            if person.potential >= max_potential:
-                max_potential = person.potential
-                most_potential_person = person
-        return most_potential_person
+        most_potential_persons = []
+        tmp_persons = persons
+        for i in range(n):
+            for person in tmp_persons:
+                if person.potential >= max_potential:
+                    max_potential = person.potential
+                    most_potential_person = person
+            most_potential_persons.append(most_potential_person)
+            tmp_persons.remove(most_potential_person)
+        return most_potential_persons
 
     @staticmethod
     def get_first_day_of_current_month():
@@ -86,7 +91,7 @@ class Solver:
             d += datetime.timedelta(1)
         return d
 
-    def define_croissanists(self, project_id, months):
+    def define_croissanists(self, project_id, months, n):
         potential = self.load_potential()
 
         calendar = self.fetcher.load_calendar(project_id, self.get_first_day_of_current_month(), months)
@@ -103,7 +108,12 @@ class Solver:
             print(friday)
             print("----------------------------")
             print("\n".join([p.name + " -> " + str(p.potential) for p in persons]))
-            croissanists.append(self.get_most_potential_person(persons).dict(friday))
+            [croissanists.append(person.dict(friday)) for person in self.get_most_potential_persons(persons, n)]
             friday += datetime.timedelta(7)
 
         return croissanists
+
+    def get_persons(self, project_id, months):
+        calendar = self.fetcher.load_calendar(project_id, self.get_first_day_of_current_month(), months)
+        persons = [str(person["last_name"]).upper() + " " + str(person["first_name"]).capitalize() for person in calendar["users"]]
+        return persons

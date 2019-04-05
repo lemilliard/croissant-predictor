@@ -22,23 +22,35 @@
             slot="activator"
             color="primary"
             dark
-            @click="predictItem(props.item)">
-            predict
+            @click="selectItem(props.item)">
+            Select
           </v-btn>
         </td>
       </template>
     </v-data-table>
     <div>
-      <v-flex xs8 id="textfield">
-        <v-text-field
-          id="demo-field"
-          name="text-input"
-      label="ID Projet"
-      single-line
-      @click.native="onClickInput"
-      v-model="value"
-    ></v-text-field>
-      </v-flex>
+      <v-layout row wrap>
+        <v-flex xs6 id="id-textfield">
+          <v-text-field
+            id="id-field"
+            name="text-input"
+            label="ID Projet"
+            single-line
+            @click.native="onClickInput"
+            v-model="value"
+          ></v-text-field>
+        </v-flex>
+        <v-flex xs3 id="textfield" style="margin: auto">
+            <v-text-field
+              id="nb-croissanist-field"
+              name="text-input"
+              label="Nb croissanist"
+              single-line
+              @click.native="onClickInput"
+              v-model="nbCroissanist"
+            ></v-text-field>
+        </v-flex>
+      </v-layout>
       <v-flex xs12>
         <v-btn
           slot="activator"
@@ -71,6 +83,7 @@ export default {
   data() {
     return {
       value: null,
+      nbCroissanist: null,
       headers: [
         { text: 'Day', value: 'friday' },
         { text: 'Name', value: 'name' },
@@ -90,7 +103,7 @@ export default {
       this.$emit('setLock', true);
     },
     predict() {
-      this.axios.get(`/define_croissanists/${this.value}/1`).then((response) => {
+      this.axios.get(`/define_croissanists/${this.value}/1/${this.nbCroissanist}`).then((response) => {
         if (response && response.data) {
           this.data = response.data;
         }
@@ -107,9 +120,8 @@ export default {
         this.response = 'Message invalide';
       });
     },
-    predictItem(item) {
+    selectItem(item) {
       this.value = item.id;
-      this.predict();
     },
   },
 };
