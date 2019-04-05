@@ -1,12 +1,1 @@
 .idea/
-venv/
-dump/
-
-__pycache__/
-build/
-dist/
-
-config.json
-
-calculate_potential.json
-potential.json

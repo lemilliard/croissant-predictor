@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import jsonify
 from flask_cors import CORS
-from solver import Solver
+from back.solver import Solver
 
 app = Flask(__name__)
 CORS(app)

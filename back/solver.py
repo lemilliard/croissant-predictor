@@ -1,8 +1,8 @@
 import json
 import datetime
 
-from person import Person
-from fetcher import Fetcher
+from back.person import Person
+from back.fetcher import Fetcher
 
 
 class Solver:
