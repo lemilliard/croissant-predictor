@@ -51,6 +51,35 @@
             ></v-text-field>
         </v-flex>
       </v-layout>
+      <v-btn
+        slot="activator"
+        color="primary"
+        dark
+        @click.native="loadPersons">
+        Persons
+      </v-btn>
+      <v-data-table
+        :headers="headersPersons"
+        :items="dataPersons"
+        hide-actions
+        class="elevation-1"
+        v-model="selected"
+        select-all
+        item-key="name"
+      >
+        <template slot="items" slot-scope="props">
+          <td>
+            <v-checkbox
+              v-model="props.selected"
+              primary
+              hide-details
+            ></v-checkbox>
+          </td>
+          <td>
+            {{ props.item.name }}
+          </td>
+        </template>
+      </v-data-table>
       <v-flex xs12>
         <v-btn
           slot="activator"
@@ -83,7 +112,7 @@ export default {
   data() {
     return {
       value: null,
-      nbCroissanist: null,
+      nbCroissanist: 1,
       headers: [
         { text: 'Day', value: 'friday' },
         { text: 'Name', value: 'name' },
@@ -93,9 +122,14 @@ export default {
         { text: 'ID Projet', value: 'id' },
         { text: 'Nom', value: 'name' },
       ],
+      headersPersons: [
+        { text: 'Name', value: 'name' },
+      ],
       data: [],
       dataProject: [],
-
+      dataPersons: [],
+      selected: [],
+      personSelected: [],
     };
   },
   methods: {
@@ -103,13 +137,27 @@ export default {
       this.$emit('setLock', true);
     },
     predict() {
-      this.axios.get(`/define_croissanists/${this.value}/1/${this.nbCroissanist}`).then((response) => {
-        if (response && response.data) {
-          this.data = response.data;
-        }
-      }).catch(() => {
-        this.response = 'Message invalide';
+      this.personSelected = [];
+      this.selected.forEach((e) => {
+        this.personSelected.push(e.name);
       });
+      if (this.personSelected.length > 0) {
+        this.axios.post(`/define_croissanists_with_filter/${this.value}/1/${this.nbCroissanist}`, this.personSelected).then((response) => {
+          if (response && response.data) {
+            this.data = response.data;
+          }
+        }).catch(() => {
+          this.response = 'Message invalide';
+        });
+      } else {
+        this.axios.get(`/define_croissanists/${this.value}/1/${this.nbCroissanist}`).then((response) => {
+          if (response && response.data) {
+            this.data = response.data;
+          }
+        }).catch(() => {
+          this.response = 'Message invalide';
+        });
+      }
     },
     loadProject() {
       this.axios.get('projects/load').then((response) => {
@@ -122,6 +170,15 @@ export default {
     },
     selectItem(item) {
       this.value = item.id;
+    },
+    loadPersons() {
+      this.axios.get(`/persons/${this.value}/1`).then((response) => {
+        if (response && response.data) {
+          this.dataPersons = response.data;
+        }
+      }).catch(() => {
+        this.response = 'Message invalide';
+      });
     },
   },
 };

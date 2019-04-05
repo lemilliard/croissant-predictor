@@ -66,18 +66,19 @@ class Solver:
             return None
 
     @staticmethod
-    def get_most_potential_persons(persons, n):
+    def get_most_potential_persons(persons, n, filter):
         max_potential = 0
         most_potential_person = None
         most_potential_persons = []
         tmp_persons = persons
         for i in range(n):
             for person in tmp_persons:
-                if person.potential >= max_potential:
+                if person.potential >= max_potential and filter is not None and person.name in filter:
                     max_potential = person.potential
                     most_potential_person = person
-            most_potential_persons.append(most_potential_person)
-            tmp_persons.remove(most_potential_person)
+            if most_potential_person is not None:
+                most_potential_persons.append(most_potential_person)
+                tmp_persons.remove(most_potential_person)
         return most_potential_persons
 
     @staticmethod
@@ -86,12 +87,12 @@ class Solver:
 
     @staticmethod
     def get_next_friday():
-        d = datetime.date.today()
+        d = datetime.date.today() + datetime.timedelta(1)
         while d.weekday() != 4:
             d += datetime.timedelta(1)
         return d
 
-    def define_croissanists(self, project_id, months, n):
+    def define_croissanists(self, project_id, months, n, filter=None):
         potential = self.load_potential()
 
         calendar = self.fetcher.load_calendar(project_id, self.get_first_day_of_current_month(), months)
@@ -108,12 +109,12 @@ class Solver:
             print(friday)
             print("----------------------------")
             print("\n".join([p.name + " -> " + str(p.potential) for p in persons]))
-            [croissanists.append(person.dict(friday)) for person in self.get_most_potential_persons(persons, n)]
+            [croissanists.append(person.dict(friday)) for person in self.get_most_potential_persons(persons, n, filter=filter)]
             friday += datetime.timedelta(7)
 
         return croissanists
 
     def get_persons(self, project_id, months):
         calendar = self.fetcher.load_calendar(project_id, self.get_first_day_of_current_month(), months)
-        persons = [str(person["last_name"]).upper() + " " + str(person["first_name"]).capitalize() for person in calendar["users"]]
+        persons = [{"name": str(person["first_name"]).capitalize() + " " + str(person["last_name"]).upper()} for person in calendar["users"]]
         return persons

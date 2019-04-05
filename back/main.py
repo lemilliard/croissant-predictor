@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import jsonify
+from flask import request
 from flask_cors import CORS
 from back.solver import Solver
 
@@ -28,6 +29,13 @@ def load_projects():
 @app.route("/define_croissanists/<project_id>/<months>/<nb_croissanist>")
 def define_croissanists(project_id, months, nb_croissanist):
     croissanists = solver.define_croissanists(project_id, int(months), int(nb_croissanist))
+    return jsonify(croissanists)
+
+
+@app.route("/define_croissanists_with_filter/<project_id>/<months>/<nb_croissanist>", methods=['POST'])
+def define_croissanists_with_filter(project_id, months, nb_croissanist):
+    filter = request.get_json()
+    croissanists = solver.define_croissanists(project_id, int(months), int(nb_croissanist), filter)
     return jsonify(croissanists)
 
 
