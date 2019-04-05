@@ -97,7 +97,11 @@
     >
       <template slot="items" slot-scope="props">
         <td v-for="(item, index) in props.item" :key="index">
-          <img v-if="index == 'picture'" :src="item"/>
+          <object v-if="index == 'picture'" :data="item" type="image/jpg"
+            style="border-radius: 15px">
+            <img style="width: 100px; border-radius: 15px"
+              src="http://10.24.216.11:3000/img/collaborator/400x400/std_avatar.jpg"/>
+          </object>
           <span v-else>{{ item }}</span>
         </td>
       </template>
