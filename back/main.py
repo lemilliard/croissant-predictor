@@ -16,7 +16,7 @@ def get_projects():
     
     
 @app.route("/persons/<project_id>/<months>")
-def projects(project_id, months):
+def get_persons(project_id, months):
     return jsonify(solver.get_persons(project_id, int(months)))
 
 

@@ -18,19 +18,12 @@ class Solver:
         return persons
 
     @staticmethod
-    def calculate_potentials(persons, friday):
-        max_potential = 0
-        most_potential_person = None
+    def calculate_potentials(persons, friday, most_potential_persons):
         for person in persons:
-            if not person.is_in_holiday(friday) and person.potential >= max_potential:
-                max_potential = person.potential
-                most_potential_person = person
-
-        for person in persons:
-            if person != most_potential_person:
-                person.potential += 1
-            else:
+            if person in most_potential_persons:
                 person.potential = 0
+            else:
+                person.potential += 1
         Solver.save_calculate_potential(persons, friday)
 
     @staticmethod
@@ -66,19 +59,25 @@ class Solver:
             return None
 
     @staticmethod
-    def get_most_potential_persons(persons, n, filter):
-        max_potential = 0
+    def get_most_potential_persons(persons, n, filter, friday):
         most_potential_person = None
         most_potential_persons = []
-        tmp_persons = persons
+        tmp_persons = persons.copy()
         for i in range(n):
+            max_potential = 0
             for person in tmp_persons:
-                if person.potential >= max_potential and filter is not None and person.name in filter:
-                    max_potential = person.potential
-                    most_potential_person = person
+                if person.potential >= max_potential and not person.is_in_holiday(friday):
+                    if filter is not None:
+                        if person.name in filter:
+                            max_potential = person.potential
+                            most_potential_person = person
+                    else:
+                        max_potential = person.potential
+                        most_potential_person = person
             if most_potential_person is not None:
                 most_potential_persons.append(most_potential_person)
                 tmp_persons.remove(most_potential_person)
+                most_potential_person = None
         return most_potential_persons
 
     @staticmethod
@@ -103,13 +102,16 @@ class Solver:
 
         croissanists = []
 
+        most_potentials_persons = []
+
         for i in range(months * 4):
-            self.calculate_potentials(persons, friday)
             print("----------------------------")
             print(friday)
             print("----------------------------")
             print("\n".join([p.name + " -> " + str(p.potential) for p in persons]))
-            [croissanists.append(person.dict(friday)) for person in self.get_most_potential_persons(persons, n, filter=filter)]
+            most_potentials_persons = self.get_most_potential_persons(persons, n, filter=filter, friday=friday)
+            [croissanists.append(person.dict(friday)) for person in most_potentials_persons]
+            self.calculate_potentials(persons, friday, most_potentials_persons)
             friday += datetime.timedelta(7)
 
         return croissanists

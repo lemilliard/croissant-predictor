@@ -30,24 +30,31 @@
     </v-data-table>
     <div>
       <v-layout row wrap>
-        <v-flex xs6 id="id-textfield">
+        <v-flex xs4 id="id-textfield">
           <v-text-field
             id="id-field"
             name="text-input"
             label="ID Projet"
-            single-line
             @click.native="onClickInput"
             v-model="value"
           ></v-text-field>
         </v-flex>
-        <v-flex xs3 id="textfield" style="margin: auto">
+        <v-flex xs2 id="textfield" style="margin: auto">
             <v-text-field
               id="nb-croissanist-field"
               name="text-input"
               label="Nb croissanist"
-              single-line
               @click.native="onClickInput"
               v-model="nbCroissanist"
+            ></v-text-field>
+        </v-flex>
+        <v-flex xs2 id="textfield_months" style="margin: auto">
+            <v-text-field
+              id="months-field"
+              name="text-input"
+              label="Nb months"
+              @click.native="onClickInput"
+              v-model="nbMonths"
             ></v-text-field>
         </v-flex>
       </v-layout>
@@ -97,11 +104,7 @@
     >
       <template slot="items" slot-scope="props">
         <td v-for="(item, index) in props.item" :key="index">
-          <object v-if="index == 'picture'" :data="item" type="image/jpg"
-            style="border-radius: 15px">
-            <img style="width: 100px; border-radius: 15px"
-              src="http://10.24.216.11:3000/img/collaborator/400x400/std_avatar.jpg"/>
-          </object>
+          <img v-if="index == 'picture'" :src="item"/>
           <span v-else>{{ item }}</span>
         </td>
       </template>
@@ -117,6 +120,7 @@ export default {
     return {
       value: null,
       nbCroissanist: 1,
+      nbMonths: 1,
       headers: [
         { text: 'Day', value: 'friday' },
         { text: 'Name', value: 'name' },
@@ -146,7 +150,7 @@ export default {
         this.personSelected.push(e.name);
       });
       if (this.personSelected.length > 0) {
-        this.axios.post(`/define_croissanists_with_filter/${this.value}/1/${this.nbCroissanist}`, this.personSelected).then((response) => {
+        this.axios.post(`/define_croissanists_with_filter/${this.value}/${this.nbMonths}/${this.nbCroissanist}`, this.personSelected).then((response) => {
           if (response && response.data) {
             this.data = response.data;
           }
@@ -154,7 +158,7 @@ export default {
           this.response = 'Message invalide';
         });
       } else {
-        this.axios.get(`/define_croissanists/${this.value}/1/${this.nbCroissanist}`).then((response) => {
+        this.axios.get(`/define_croissanists/${this.value}/${this.nbMonths}/${this.nbCroissanist}`).then((response) => {
           if (response && response.data) {
             this.data = response.data;
           }
