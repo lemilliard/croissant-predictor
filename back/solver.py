@@ -1,8 +1,8 @@
 import json
 import datetime
 
-from back.person import Person
-from back.fetcher import Fetcher
+from person import Person
+from fetcher import Fetcher
 
 
 class Solver:
@@ -24,7 +24,7 @@ class Solver:
                 person.potential = 0
             else:
                 person.potential += 1
-        Solver.save_calculate_potential(persons, friday)
+        #Solver.save_calculate_potential(persons, friday)
 
     @staticmethod
     def save_calculate_potential(persons, friday):
@@ -52,10 +52,17 @@ class Solver:
                     json.dump(potential, f)
             d = datetime.datetime.strptime(potential["date"], "%Y-%m-%d").date()
             if d < datetime.date.today():
-                json.dump(calculate_potential, f)
-                return calculate_potential
+                with open('potential.json', 'w') as f:
+                    json.dump(calculate_potential, f)
+                    return calculate_potential
             return potential
         except:
+            with open('potential.json', 'w') as f:
+                potential = {
+                    "date": Solver.get_next_friday().strftime("%Y-%m-%d"),
+                    "potential": None
+                }
+                json.dump(potential, f)
             return None
 
     @staticmethod
@@ -112,6 +119,8 @@ class Solver:
             most_potentials_persons = self.get_most_potential_persons(persons, n, filter=filter, friday=friday)
             [croissanists.append(person.dict(friday)) for person in most_potentials_persons]
             self.calculate_potentials(persons, friday, most_potentials_persons)
+            if i == 0:
+              Solver.save_calculate_potential(persons, friday)
             friday += datetime.timedelta(7)
 
         return croissanists
