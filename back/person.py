@@ -25,7 +25,7 @@ class Person:
         self.holiday.append(holiday)
 
     def is_in_holiday(self, date):
-        return date in self.holiday
+        return str(date) in self.holiday
 
     def dict(self, friday):
         return {
