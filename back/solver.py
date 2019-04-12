@@ -14,7 +14,10 @@ class Solver:
         persons = [Person(person) for person in calendar["users"]]
         if potential is not None and potential["potential"] is not None:
             for person in persons:
-                person.potential = potential["potential"][person.name]
+                try:
+                    person.potential = potential["potential"][person.name]
+                except:
+                    person.potential = 0
         return persons
 
     @staticmethod
