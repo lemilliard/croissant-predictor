@@ -103,9 +103,9 @@
           class="elevation-1"
           >
             <template slot="items" slot-scope="props">
-              <td v-for="(item, index) in props.item" :key="index">
-                <img v-if="index == 'picture'" :src="item"/>
-                <span v-else>{{ item }}</span>
+              <td v-for="header in headers" :key="header.value">
+                <img v-if="header.value == 'picture'" :src="props.item[header.value]"/>
+                <span v-else>{{ props.item[header.value] }}</span>
               </td>
             </template>
           </v-data-table>
@@ -126,6 +126,7 @@ export default {
       headers: [
         { text: 'Day', value: 'friday', align: 'center' },
         { text: 'Name', value: 'name', align: 'center' },
+        { text: 'Email', value: 'email', align: 'center' },
         { text: 'Picture', value: 'picture', align: 'center' },
       ],
       headersProject: [
