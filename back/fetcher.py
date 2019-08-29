@@ -46,6 +46,7 @@ class Fetcher:
             "startDate": start_date,
             "collection": "events",
             "projectId": project_id,
+            # "projectId": "5c735e75d5de9fb38da25c1a",
             "nbMonths": nb_months,
             "action": "get"
         }
